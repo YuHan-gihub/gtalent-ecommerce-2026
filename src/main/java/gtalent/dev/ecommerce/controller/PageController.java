@@ -26,6 +26,11 @@ public class PageController {
     public String EagerPage() {
         return "eager";
     }
+
+    @GetMapping("/edward1")
+    public String Ed1Page() {
+        return "edward1";
+    }
     
     @GetMapping("/charlie")
     public String ChPage() {
