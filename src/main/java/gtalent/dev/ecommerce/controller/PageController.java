@@ -12,12 +12,16 @@ public class PageController {
     }
 
     @GetMapping("/yuhan")
-    public String EdPage() {
+    public String yuhanPage() {
         return "yuhan";
     }
 
-<<<<<<< HEAD
-=======
+  
+    @GetMapping("/CYL")
+    public String CylPage() {
+        return "CYL";
+    }
+  
     @GetMapping("/eager")
     public String EagerPage() {
         return "eager";
@@ -28,10 +32,14 @@ public class PageController {
         return "charlie";
     }
     
+    @GetMapping("/Jia")
+    public String JiaPage() {
+        return "jia";
+    }
+    
     @GetMapping("/WWJ")
     public String WWJPage() {
         return "WWJ";
     }
 
->>>>>>> b55fed7ebba3ef61b815d78245c87212e3235f5a
 }
