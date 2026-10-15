@@ -16,4 +16,21 @@ public class PageController {
         return "yuhan";
     }
 
+<<<<<<< HEAD
+=======
+    @GetMapping("/eager")
+    public String EagerPage() {
+        return "eager";
+    
+    @GetMapping("/charlie")
+    public String ChPage() {
+        return "charlie";
+    }
+    
+    @GetMapping("/WWJ")
+    public String WWJPage() {
+        return "WWJ";
+    }
+
+>>>>>>> b55fed7ebba3ef61b815d78245c87212e3235f5a
 }
