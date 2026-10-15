@@ -3,7 +3,6 @@ package gtalent.dev.ecommerce.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
-
 @Controller
 public class PageController {
 
@@ -12,10 +11,11 @@ public class PageController {
         return "home";
     }
 
-    @GetMapping("/edward")
-    public String EdPage() {
-        return "edward";
+    @GetMapping("/yuhan")
+    public String yuhanPage() {
+        return "yuhan";
     }
+
   
     @GetMapping("/CYL")
     public String CylPage() {
